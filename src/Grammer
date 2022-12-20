@@ -1,0 +1,15 @@
+E   = E "+" T  |  E "-" T  |  T
+T   = T "*" F  |  T "/" F  |  F
+F   = n  |  "(" E ")"
+
+rules of E and T must be transformed to remove left recursion
+as following :
+
+E     = T EDash
+EDash = "+" T EDash  |  "-" T EDash  |  €
+T     = F TDash
+TDash = "*" F TDash  |  "/" F TDash  |  €
+F     = n  |  "(" E ")"
+
+
+
