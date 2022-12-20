@@ -12,4 +12,4 @@ In this project, we built a parser for Arithmetic grammer that is able to prefor
 `ArithmeticEvaluationAndParser` class contains the implementation of the given grammer in `"Grammer.txt"` file. In this class, we will use the tokens from the previous stage and evaluate the result.
 <hr>
 
-**`Note`** I built a lexical-Analyzer, you can check from [here](https://github.com/mohamed0tarek/Lexical-Analyzer).
+**`Note`** ***I have built a lexical-Analyzer you can check from [here](https://github.com/mohamed0tarek/Lexical-Analyzer).***
